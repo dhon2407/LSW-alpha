@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2cb87fb585cc44381db81b9a372627, type: 3}
+  m_Name: Broken Fridge
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _Name: Broken Fridge
+  _Description: 
+  _BasePrice: 0
+  _Icon: {fileID: -6521278117245079348, guid: 64c2a5667206a194c8b9af2c2d845cae, type: 3}
+  Type: 3
+  LinkedPrefab: {fileID: 4422461270971153060, guid: aa376a4e469e88d4bb87c80c017600b4,
+    type: 3}

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2621ac525742ed7409a10a2c1af671d8, type: 3}
+  m_Name: Executive Editor
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: RequiredSkills
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PlayerStats.Skill+Type, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PlayerStats.Skill+Type,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  jobType: 0
+  XPbonus: 0
+  WagePerHour: 50
+  JobCareerLevel: 0
+  PromotionJob: {fileID: 0}
+  DemoteJob: {fileID: 11400000, guid: 786d73be302fbab4d9e8d719089565d5, type: 2}
+  JobStartingTimeInHours: 7
+  WorkingTimeInHours: 9
+  WorkingDays: 00000000010000000400000005000000
+  MaxSegments: 5
+  MaxCarWaitTime: 60
+  Description: Welcome to the big leagues. Your job now will be to organize, supervise,
+    and participate in the management and development of all copy submitted for publication.
+    That means you will work with editors and designers on the development of the
+    editorial calendar and set and enforce deadlines for copy. Well paid, long hours,
+    lots of socializing, if you can call it that. But hey, you are actually a respected
+    person now. Seems like your not so hard work paid off. Now your job is easier,
+    but it still eats a large chunk of your day.
+  icon: {fileID: 0}

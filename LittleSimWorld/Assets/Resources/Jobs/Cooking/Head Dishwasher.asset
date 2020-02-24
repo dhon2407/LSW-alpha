@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2621ac525742ed7409a10a2c1af671d8, type: 3}
+  m_Name: Head Dishwasher
+  m_EditorClassIdentifier: Assembly-CSharp::JobManager/Job
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: RequiredSkills
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PlayerStats.Skill+Type, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PlayerStats.Skill+Type,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  jobType: 0
+  XPbonus: 10
+  WagePerHour: 7.5
+  JobCareerLevel: 2
+  PromotionJob: {fileID: 11400000, guid: 24708dff144b37d48a1462c049f1328a, type: 2}
+  DemoteJob: {fileID: 11400000, guid: 6c304290e5a63a84886734b2e4c5ccf3, type: 2}
+  JobStartingTimeInHours: 16
+  WorkingTimeInHours: 9
+  WorkingDays: 0200000003000000040000000500000006000000
+  MaxSegments: 5
+  MaxCarWaitTime: 60
+  Description: As the Head Dishwasher, you can choose which dishes you want to wash.
+    Hard to scrub pots and pans are no longer an issue, unless you wants them to
+    be. Only the most beautiful china are now placed in your hands.
+  icon: {fileID: 8877054841053834619, guid: 7578a061c7f971044bc07a475ce1b2c7, type: 3}

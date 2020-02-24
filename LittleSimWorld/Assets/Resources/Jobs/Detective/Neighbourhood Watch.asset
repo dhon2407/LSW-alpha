@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2621ac525742ed7409a10a2c1af671d8, type: 3}
+  m_Name: Neighbourhood Watch
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: RequiredSkills
+      Entry: 6
+      Data: 
+  jobType: 4
+  XPbonus: 10
+  WagePerHour: 2
+  JobCareerLevel: 1
+  PromotionJob: {fileID: 11400000, guid: bc25b120003902441a955090311a530d, type: 2}
+  DemoteJob: {fileID: 0}
+  JobStartingTimeInHours: 20
+  WorkingTimeInHours: 6
+  WorkingDays: 00000000020000000400000006000000
+  MaxSegments: 5
+  MaxCarWaitTime: 60
+  Description: You have joined a neighbourhood crime watch. Its volunteer work technically,
+    but the neighbourhood puts together some donation money so you can afford to
+    keep spending your time on it. You take long walks with your trusty flashlight
+    and phone, to call the police in case of necessity. Remember to always walk in
+    pairs. Some super heroes had similar origin stories...
+  icon: {fileID: 0}

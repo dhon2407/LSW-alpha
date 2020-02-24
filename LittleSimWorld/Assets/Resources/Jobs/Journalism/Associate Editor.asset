@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2621ac525742ed7409a10a2c1af671d8, type: 3}
+  m_Name: Associate Editor
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: RequiredSkills
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PlayerStats.Skill+Type, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PlayerStats.Skill+Type,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  jobType: 0
+  XPbonus: 0
+  WagePerHour: 50
+  JobCareerLevel: 0
+  PromotionJob: {fileID: 11400000, guid: 10349aafe59e977418befebacec0d67c, type: 2}
+  DemoteJob: {fileID: 11400000, guid: 1106cb3ac8e97834cb160f72bd49a2c0, type: 2}
+  JobStartingTimeInHours: 10
+  WorkingTimeInHours: 7
+  WorkingDays: 00000000010000000200000003000000
+  MaxSegments: 5
+  MaxCarWaitTime: 60
+  Description: "Now you are responsible for the quality, consistency, and impact
+    of journals in the research community. This is achieved by selecting qualified,
+    independent and experienced reviewers to review the submitted manuscripts, and
+    by efficiently managing the peer-review process. You will also be managing some
+    of the people below you, and socializing with far more people during your day.
+    All this does lead to making more money, but unfortunately, your work hours dramatically
+    increase as well. But truth be told, it\u2019s not really hard type of work,
+    work."
+  icon: {fileID: 0}

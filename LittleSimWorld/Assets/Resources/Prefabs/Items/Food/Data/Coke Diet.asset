@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87730d6442d858c42bbb89477341371e, type: 3}
+  m_Name: Coke Diet
+  m_EditorClassIdentifier: 
+  code: 40964
+  kind: 0
+  name: Cork Diet
+  icon: {fileID: 1338130529679900382, guid: 02375688e6446cd47b06b22d0f8bc48f, type: 3}
+  Description: A 'healthier' soft drink that is apparently low on calories.
+  droppable: 1
+  isStackable: 1
+  maxStack: 2
+  price: 1.5
+  UsageSound: {fileID: 8300000, guid: f9d7c46f480806f4889a25feaa80de9a, type: 3}
+  UsageTime: 5
+  cooldown: 6
+  AnimationToPlayName: Drinking
+  type: 0
+  Hunger: 0
+  Mood: 1
+  Health: -5
+  Energy: 5
+  Thirst: 40
+  Bladder: -12.5
+  HungerPercentBonus: 0
+  MoodPercentBonus: 0
+  HealthPercentBonus: 0
+  EnergyPercentBonus: 0
+  ThirstPercentBonus: 0

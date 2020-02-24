@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2621ac525742ed7409a10a2c1af671d8, type: 3}
+  m_Name: Copywriter
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: RequiredSkills
+      Entry: 6
+      Data: 
+  jobType: 1
+  XPbonus: 10
+  WagePerHour: 3.5
+  JobCareerLevel: 1
+  PromotionJob: {fileID: 11400000, guid: abdd48448929f48469eec20d50fd8ffb, type: 2}
+  DemoteJob: {fileID: 0}
+  JobStartingTimeInHours: 9
+  WorkingTimeInHours: 7
+  WorkingDays: 0000000001000000020000000300000004000000
+  MaxSegments: 5
+  MaxCarWaitTime: 60
+  Description: 'Copywriting is writing text for the purpose of advertising or other
+    forms of marketing. The product, called copy, is written content that aims to
+    increase brand awareness and ultimately persuade a person or group to take a
+    particular action. For you, this means hours of typing away at keyboard often
+    stealing other people''s work and changing it enough to call it your own.  '
+  icon: {fileID: 0}

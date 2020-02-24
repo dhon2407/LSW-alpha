@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2cb87fb585cc44381db81b9a372627, type: 3}
+  m_Name: Perfect Wardrobe
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _Name: Perfect Wardrobe
+  _Description: 
+  _BasePrice: 5000
+  _Icon: {fileID: -4548839607751839581, guid: aae9e88c7ffec7c4a883a41c5ca66e9c, type: 3}
+  Type: 10
+  LinkedPrefab: {fileID: 7548617495721759347, guid: d2fd743b7d3d3fe45859d8c1c84c7a7c,
+    type: 3}

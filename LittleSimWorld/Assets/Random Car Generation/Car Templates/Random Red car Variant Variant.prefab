@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5825658343309852488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 408296665791276226, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 619355b201354a945a219ee25bee8c10,
+        type: 3}
+    - target: {fileID: 4704172887428956374, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.515
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133996411737751, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.331
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133997256280944, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133997256280944, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133997256280944, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133997256280944, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133997256280944, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133997256280944, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133997256280944, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133997256280944, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133997256280944, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133997256280944, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133997256280944, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266133997256280949, guid: 5f19f6d86e3053d4ab77cffd77590918,
+        type: 3}
+      propertyPath: m_Name
+      value: Random Red car Variant Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f19f6d86e3053d4ab77cffd77590918, type: 3}

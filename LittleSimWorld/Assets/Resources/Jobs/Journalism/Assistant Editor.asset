@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2621ac525742ed7409a10a2c1af671d8, type: 3}
+  m_Name: Assistant Editor
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: RequiredSkills
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PlayerStats.Skill+Type, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PlayerStats.Skill+Type,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  jobType: 1
+  XPbonus: 10
+  WagePerHour: 6
+  JobCareerLevel: 3
+  PromotionJob: {fileID: 11400000, guid: 786d73be302fbab4d9e8d719089565d5, type: 2}
+  DemoteJob: {fileID: 11400000, guid: abdd48448929f48469eec20d50fd8ffb, type: 2}
+  JobStartingTimeInHours: 3
+  WorkingTimeInHours: 6
+  WorkingDays: 00000000010000000200000003000000
+  MaxSegments: 5
+  MaxCarWaitTime: 60
+  Description: As an assistant editor you will be responsible for supporting the
+    editor-in-chief or editor-at-large of a newspaper, magazine, radio program or
+    website. Your role is supportive, but also authoritative in that you can oversee
+    your own editorial section, such as international news, feature stories or sports.
+    A step in the right direction, more free time, more money, and a modicum of popularity
+    and respect.
+  icon: {fileID: 0}

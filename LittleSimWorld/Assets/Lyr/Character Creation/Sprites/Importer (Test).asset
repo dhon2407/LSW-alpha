@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5df4df8b0a4b034990c914ede9cee9f, type: 3}
+  m_Name: Importer (Test)
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4430786905372859244, guid: f37dd23ff60e6b04f86f7ad43293bf07, type: 3}
+    - {fileID: -2544572868770576757, guid: f37dd23ff60e6b04f86f7ad43293bf07, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: defaults
+      Entry: 7
+      Data: 0|CharacterPartImporter+BodyReferences, Assembly-CSharp
+    - Name: Body
+      Entry: 10
+      Data: 0
+    - Name: Head
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+  SpriteToPreview: {fileID: -2544572868770576757, guid: f37dd23ff60e6b04f86f7ad43293bf07,
+    type: 3}
+  textureWidth: 500
+  textureHeight: 1000
+  sprite: {fileID: 0}

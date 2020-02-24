@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab8d9aa129a19f459f8188a9a5d4b10, type: 3}
+  m_Name: Male Shirt 3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Part: 5
+  Bot: {fileID: 8914497156774600812, guid: 98222803348b86a4e87d70e0345db6fc, type: 3}
+  Top: {fileID: 470310674972780070, guid: 98222803348b86a4e87d70e0345db6fc, type: 3}
+  Right: {fileID: 5817739373168205165, guid: 98222803348b86a4e87d70e0345db6fc, type: 3}
+  Left: {fileID: -509395614126485509, guid: 98222803348b86a4e87d70e0345db6fc, type: 3}

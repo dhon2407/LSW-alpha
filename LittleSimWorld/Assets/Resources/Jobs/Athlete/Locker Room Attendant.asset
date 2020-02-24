@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2621ac525742ed7409a10a2c1af671d8, type: 3}
+  m_Name: Locker Room Attendant
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: RequiredSkills
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PlayerStats.Skill+Type, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PlayerStats.Skill+Type,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  jobType: 0
+  XPbonus: 10
+  WagePerHour: 8
+  JobCareerLevel: 2
+  PromotionJob: {fileID: 11400000, guid: 2db03ddbd04f51242b4480d5ab45e796, type: 2}
+  DemoteJob: {fileID: 11400000, guid: 058789d4e2e843645aed10055e483da5, type: 2}
+  JobStartingTimeInHours: 9
+  WorkingTimeInHours: 8
+  WorkingDays: 0000000001000000020000000300000004000000
+  MaxSegments: 5
+  MaxCarWaitTime: 60
+  Description: 'As locker room attendant you will ensure the cleanliness and functioning
+    of a locker room for a sports team or at a sports club or gym. Your duties include
+    interacting with guests and members, assigning guests lockers or clothing storage,
+    and sometimes taking payments. If this sounds like a glorified janitor, it is.
+    But because it pays more than a janitor job. Usually. '
+  icon: {fileID: 21300010, guid: 34ff6bec121763c4c919d1af0584ea88, type: 3}

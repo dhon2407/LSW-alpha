@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - NPC
+  - Fire
+  - Tree
+  - Crossing
+  - PlayerOccluder
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Doors
+  - Interactables
+  - Stop Raycast
+  - Mouse over pop-ups
+  - Canvases
+  - Masks
+  - Droppable Items
+  - Walls
+  - Tilemaps
+  - Car Breaking Zone
+  - Leveling Skill
+  - Hunger
+  - Thirst
+  - WorldFloor
+  - Energy
+  - Mood
+  - Hygiene
+  - Bladder
+  - MouseOverCollider
+  - Road
+  - Cars
+  - UI Pathfinding Block
+  - NPCs
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Outside Buildings
+    uniqueID: 1623698639
+    locked: 0
+  - name: Tilemaps
+    uniqueID: 3551608395
+    locked: 0
+  - name: Weather
+    uniqueID: 3103565883
+    locked: 0
+  - name: UI
+    uniqueID: 1520288197
+    locked: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf80be1879119f046a64fbafe390936a, type: 3}
+  m_Name: Rainy
+  m_EditorClassIdentifier: 
+  type: 2
+  indicatorIcon: {fileID: -4172132747399786702, guid: 1c7f484c05b6b0846b6d606ced071799,
+    type: 3}
+  ambientSound: {fileID: 8300000, guid: 03b88f4fde91fea4d8156bbd1ee5a16e, type: 3}
+  RateOfOccurence:
+  - season: 0
+    percentage: 5
+  - season: 1
+    percentage: 20
+  - season: 2
+    percentage: 10
+  - season: 3
+    percentage: 30
+  particleSystem: {fileID: 2432282339219785859, guid: 34a98f294f55ce64eb286f983fee25a4,
+    type: 3}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b52b9a3357684a48b4f8c6a2a94d842, type: 3}
+  m_Name: Gourment Omelette
+  m_EditorClassIdentifier: 
+  RecipeOutcome: 41014
+  itemsRequired: 13a0000013a0000023a00000
+  timeToCook: 40
+  EXPAwarded: 25

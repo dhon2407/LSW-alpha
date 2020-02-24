@@ -1,0 +1,940 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943c67d3ec414394eb23b6c5645dae75, type: 3}
+  m_Name: Clothes Manager
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 16ec430a3d5d96f4580c73c1e8c3ca3f, type: 2}
+    - {fileID: 11400000, guid: 166f98ba6ea9a6c4ba1b342c3c55266e, type: 2}
+    - {fileID: 11400000, guid: cdcd2229308074b4e962a56cae075371, type: 2}
+    - {fileID: 11400000, guid: 0b9e4d946ad677f4d8c9d0647c27aa95, type: 2}
+    - {fileID: 11400000, guid: c9c655d8911ae394381ac0c61eaae576, type: 2}
+    - {fileID: 11400000, guid: c4d20863c1875eb4db4aa9d47b2b7b45, type: 2}
+    - {fileID: 11400000, guid: 80347946d7e92de48bfeb98ae7f7b64f, type: 2}
+    - {fileID: 11400000, guid: 52227c27d26f11d44a8a6c5b42add63f, type: 2}
+    - {fileID: 11400000, guid: 7134008be86236f4aa4dfac0540faeb2, type: 2}
+    - {fileID: 11400000, guid: 5f6c0c5a1ccb4e440ba3d899a8c1a818, type: 2}
+    - {fileID: 11400000, guid: c56c50e6f0ce7b544974cad839854807, type: 2}
+    - {fileID: 11400000, guid: 65ed62d9d6ca37f43b3ce9c39bb48493, type: 2}
+    - {fileID: 11400000, guid: 1e73ce0642d6ac14ea52838dfcc1333d, type: 2}
+    - {fileID: 11400000, guid: 00dd7651b35de79479629f2687db6173, type: 2}
+    - {fileID: 11400000, guid: 2e1972c881f87ff4eae7f82460d70484, type: 2}
+    - {fileID: 11400000, guid: aeb2d8fb58d8b2b44b93a46dd600b5e8, type: 2}
+    - {fileID: 11400000, guid: d8a0f6bc36c2d7a42bd31408118eab64, type: 2}
+    - {fileID: 11400000, guid: 2d2cfaa2ebc82a54389750684755db81, type: 2}
+    - {fileID: 11400000, guid: dd39cdf00cbb4fb44a82aa1816ab4382, type: 2}
+    - {fileID: 11400000, guid: c2d9bf13c1428af4f8b8779a97e4325b, type: 2}
+    - {fileID: 11400000, guid: 6d2c1bf1c1c5a3943ae4480c3625d057, type: 2}
+    - {fileID: 11400000, guid: 6b042bca34f54764289d33e2a02de0e4, type: 2}
+    - {fileID: 11400000, guid: 780eaba1fbb69724aa25065fa2f7bfcb, type: 2}
+    - {fileID: 11400000, guid: 1fd1c4386de6ed74db7b0394328cf069, type: 2}
+    - {fileID: 11400000, guid: ecc6197de57565e4ebbc9df178be5033, type: 2}
+    - {fileID: 11400000, guid: 65fc0c8b7ae07644f83de48b40247203, type: 2}
+    - {fileID: 11400000, guid: 39954a75585763a4a8acfac2a08bcb83, type: 2}
+    - {fileID: 11400000, guid: 548b4f45ea805484285a8fb9717fafff, type: 2}
+    - {fileID: 11400000, guid: 8a7408cf52a509a4f94dcbb875f60fe0, type: 2}
+    - {fileID: 11400000, guid: ca27e2ecc4120e24e8527eccf2f54811, type: 2}
+    - {fileID: 11400000, guid: b0c19d5a14c31b0488ee568969873f90, type: 2}
+    - {fileID: 11400000, guid: 27c47debcce35324fb1edaa4eb0a276f, type: 2}
+    - {fileID: 11400000, guid: 026c73526a145ed4b8491acd972bb298, type: 2}
+    - {fileID: 11400000, guid: 056b2d931dcdf3d45a33096e7b8ca247, type: 2}
+    - {fileID: 11400000, guid: 96d9b9b3fe78aab4d95e3811d3bda179, type: 2}
+    - {fileID: 11400000, guid: 458c5e7b41565604db4fbccd6aa531a6, type: 2}
+    - {fileID: 11400000, guid: 10b3a5f1b73ce2548b16bfa1921de5dd, type: 2}
+    - {fileID: 11400000, guid: 0d17c22e2415eaf4ab946a8d22a45b0c, type: 2}
+    - {fileID: 11400000, guid: 474854b09b8d09444b56ac24541a34b5, type: 2}
+    - {fileID: 11400000, guid: e874d4770e9e23a4d95e0b3609f593e1, type: 2}
+    - {fileID: 11400000, guid: 9b02e0d06854e4b4e90222dc114a876f, type: 2}
+    - {fileID: 11400000, guid: 196b925b84022dd4baeab428f0803e1a, type: 2}
+    - {fileID: 11400000, guid: 6d37b4b1556c13f4d8fe6c2a42f3d479, type: 2}
+    - {fileID: 11400000, guid: f694195c5108cf64abfd90e845ab8f1d, type: 2}
+    - {fileID: 11400000, guid: 9cf5ca26c2e2e124392cf3d58d07a54b, type: 2}
+    - {fileID: 11400000, guid: e8305e1eb801dc041944269fabe70e6c, type: 2}
+    - {fileID: 11400000, guid: 621529b6bb304ee4192eca632d7a581f, type: 2}
+    - {fileID: 11400000, guid: 6e03279459d43f14bbfde8720bc2f90d, type: 2}
+    - {fileID: 11400000, guid: 582ce962156f8ee488b77be997a68867, type: 2}
+    - {fileID: 11400000, guid: aed951fceb7e72a41be9a122ede5b0d2, type: 2}
+    - {fileID: 11400000, guid: 69d1af4a4ddab314aaf1466dbb38fef1, type: 2}
+    - {fileID: 11400000, guid: 619b8dad24c728743a077d44b3979938, type: 2}
+    - {fileID: 11400000, guid: a8ee006ecc9428940896558114cdd21a, type: 2}
+    - {fileID: 11400000, guid: 1fdd2f675fb1ab642ba8bbe910d9d074, type: 2}
+    - {fileID: 11400000, guid: 664632b46a1bccc4395964c939b87590, type: 2}
+    - {fileID: 11400000, guid: 50469da6f64648e418651730e58b0222, type: 2}
+    - {fileID: 11400000, guid: 4aa8ac4d6bffb0f458cd81bffe3473c2, type: 2}
+    - {fileID: 11400000, guid: 9924ca4d856843442a80fbbb04e931a5, type: 2}
+    - {fileID: 11400000, guid: e932815f3c6dfe843b98ec271b5da1c5, type: 2}
+    - {fileID: 11400000, guid: 7f352dc969ef3f746bab2735b8402321, type: 2}
+    - {fileID: 11400000, guid: 64d7b40c041313e4d91937b4daa6f5d1, type: 2}
+    - {fileID: 11400000, guid: d7efdb8d5aed80042ac1c9d3b1792494, type: 2}
+    - {fileID: 11400000, guid: 2b9ef4f3ce3735c46a40382b342b73f6, type: 2}
+    - {fileID: 11400000, guid: da6e5de94800a0b419f444628e791e05, type: 2}
+    - {fileID: 11400000, guid: 6aa54a898d306794eb2735716080ebbb, type: 2}
+    - {fileID: 11400000, guid: e0027f00ac8b2404693a0a739f7ca3e5, type: 2}
+    - {fileID: 11400000, guid: 44b4ac5dadaf3e24e9b9736e87cd33f2, type: 2}
+    - {fileID: 11400000, guid: f04e4666150d2404394202b9e916accd, type: 2}
+    - {fileID: 11400000, guid: 72b3f59f1f6dee3439b7b798880928be, type: 2}
+    - {fileID: 11400000, guid: 1cbd735e85c281343a6bb895f9d1f8aa, type: 2}
+    - {fileID: 11400000, guid: 6d327ab82c558334cba39c7c7bc54017, type: 2}
+    - {fileID: 11400000, guid: fe48b3923dba00c4aac11196af1aca87, type: 2}
+    - {fileID: 11400000, guid: 378bbfb1cff2f024eaca6fdb20f77582, type: 2}
+    - {fileID: 11400000, guid: 0e2093eee1d23ce4897cdfa001e1dfbd, type: 2}
+    - {fileID: 11400000, guid: f86777d697cc93b4ba3c3500179c43a0, type: 2}
+    - {fileID: 11400000, guid: 5e1f42f0da62cfd489448bc29ecd0a9e, type: 2}
+    - {fileID: 11400000, guid: 66f5ed9c0a3069644b5caf7a45a0e640, type: 2}
+    - {fileID: 11400000, guid: eb541149592652f40bbfc4dcf64105fe, type: 2}
+    - {fileID: 11400000, guid: 8d21a82d69da0c04dae80126b50cf620, type: 2}
+    - {fileID: 11400000, guid: f8b995d893a502745843353c44fd246d, type: 2}
+    - {fileID: 11400000, guid: 41fdb23ff09357b4897389f459c2147f, type: 2}
+    - {fileID: 11400000, guid: 65f44791efefd2040a03cb77dec51e74, type: 2}
+    - {fileID: 11400000, guid: fad341c707611734f8cc56894526efd0, type: 2}
+    - {fileID: 11400000, guid: 2bca538b237b39149bcd1475a61af497, type: 2}
+    - {fileID: 11400000, guid: 75a4e0cdada1eb241a8790b0b7379979, type: 2}
+    - {fileID: 11400000, guid: e9e16cd1bf5bc19438563b4eea3b06b5, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: collection
+      Entry: 7
+      Data: 0|UI.CharacterCreation.SpriteSetCollection, Assembly-CSharp
+    - Name: SpriteSets
+      Entry: 7
+      Data: 1|System.Collections.Generic.Dictionary`2[[UI.CharacterCreation.SpriteSetCollection+GeneralCharacterPart,
+        Assembly-CSharp],[System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 2|System.Collections.Generic.EnumEqualityComparer`1[[UI.CharacterCreation.SpriteSetCollection+GeneralCharacterPart,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MaleHair
+      Entry: 7
+      Data: 9|System.Collections.Generic.Dictionary`2[[UI.CharacterCreation.HairColor,
+        Assembly-CSharp],[System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 10|System.Collections.Generic.EnumEqualityComparer`1[[UI.CharacterCreation.HairColor,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 10
+      Data: 30
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 10
+      Data: 38
+    - Name: 
+      Entry: 10
+      Data: 39
+    - Name: 
+      Entry: 10
+      Data: 40
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FemaleHair
+      Entry: 7
+      Data: 16|System.Collections.Generic.Dictionary`2[[UI.CharacterCreation.HairColor,
+        Assembly-CSharp],[System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 41
+    - Name: 
+      Entry: 10
+      Data: 42
+    - Name: 
+      Entry: 10
+      Data: 43
+    - Name: 
+      Entry: 10
+      Data: 44
+    - Name: 
+      Entry: 10
+      Data: 45
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 46
+    - Name: 
+      Entry: 10
+      Data: 47
+    - Name: 
+      Entry: 10
+      Data: 48
+    - Name: 
+      Entry: 10
+      Data: 49
+    - Name: 
+      Entry: 10
+      Data: 50
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 51
+    - Name: 
+      Entry: 10
+      Data: 52
+    - Name: 
+      Entry: 10
+      Data: 53
+    - Name: 
+      Entry: 10
+      Data: 54
+    - Name: 
+      Entry: 10
+      Data: 55
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 56
+    - Name: 
+      Entry: 10
+      Data: 57
+    - Name: 
+      Entry: 10
+      Data: 58
+    - Name: 
+      Entry: 10
+      Data: 59
+    - Name: 
+      Entry: 10
+      Data: 60
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 61
+    - Name: 
+      Entry: 10
+      Data: 62
+    - Name: 
+      Entry: 10
+      Data: 63
+    - Name: 
+      Entry: 10
+      Data: 64
+    - Name: 
+      Entry: 10
+      Data: 65
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MaleClothes
+      Entry: 7
+      Data: 22|System.Collections.Generic.Dictionary`2[[UI.CharacterCreation.SpriteSetCollection+CharacterClothing,
+        Assembly-CSharp],[System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 23|System.Collections.Generic.EnumEqualityComparer`1[[UI.CharacterCreation.SpriteSetCollection+CharacterClothing,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 24|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 66
+    - Name: 
+      Entry: 10
+      Data: 67
+    - Name: 
+      Entry: 10
+      Data: 68
+    - Name: 
+      Entry: 10
+      Data: 69
+    - Name: 
+      Entry: 10
+      Data: 70
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 71
+    - Name: 
+      Entry: 10
+      Data: 72
+    - Name: 
+      Entry: 10
+      Data: 73
+    - Name: 
+      Entry: 10
+      Data: 74
+    - Name: 
+      Entry: 10
+      Data: 75
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FemaleClothes
+      Entry: 7
+      Data: 26|System.Collections.Generic.Dictionary`2[[UI.CharacterCreation.SpriteSetCollection+CharacterClothing,
+        Assembly-CSharp],[System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 23
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 76
+    - Name: 
+      Entry: 10
+      Data: 77
+    - Name: 
+      Entry: 10
+      Data: 78
+    - Name: 
+      Entry: 10
+      Data: 79
+    - Name: 
+      Entry: 10
+      Data: 80
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 28|System.Collections.Generic.List`1[[CharacterData.CharacterSpriteSet,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 81
+    - Name: 
+      Entry: 10
+      Data: 82
+    - Name: 
+      Entry: 10
+      Data: 83
+    - Name: 
+      Entry: 10
+      Data: 84
+    - Name: 
+      Entry: 10
+      Data: 85
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bodyPart
+      Entry: 3
+      Data: 7
+    - Name: gender
+      Entry: 3
+      Data: 1
+    - Name: hairColor
+      Entry: 3
+      Data: 4
+    - Name: clothing
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 

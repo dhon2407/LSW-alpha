@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf80be1879119f046a64fbafe390936a, type: 3}
+  m_Name: Snowy
+  m_EditorClassIdentifier: 
+  type: 4
+  indicatorIcon: {fileID: 21300040, guid: d4da6a83652bf3a45b9746efd9ed518f, type: 3}
+  ambientSound: {fileID: 8300000, guid: f2d84521a6e9e8e42a2fb881339d8317, type: 3}
+  RateOfOccurence:
+  - season: 0
+    percentage: 0
+  - season: 1
+    percentage: 0
+  - season: 2
+    percentage: 80
+  - season: 3
+    percentage: 0
+  particleSystem: {fileID: 0}

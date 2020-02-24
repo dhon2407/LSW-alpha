@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2cb87fb585cc44381db81b9a372627, type: 3}
+  m_Name: Budget Stove
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _Name: Budget Stove
+  _Description: 
+  _BasePrice: 200
+  _Icon: {fileID: -5571857479052508766, guid: 51575b01f6973b14b9419e1f09db0ff6, type: 3}
+  Type: 8
+  LinkedPrefab: {fileID: 719921215909725713, guid: 5d19241469082b048af50110286b33f9,
+    type: 3}

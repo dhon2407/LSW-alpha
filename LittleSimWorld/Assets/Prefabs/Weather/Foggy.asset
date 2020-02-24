@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40b84bdef8473d34d9b69f624754d762, type: 3}
+  m_Name: Foggy
+  m_EditorClassIdentifier: 
+  type: 3
+  indicatorIcon: {fileID: -3689216225094957506, guid: 1c7f484c05b6b0846b6d606ced071799,
+    type: 3}
+  ambientSound: {fileID: 8300000, guid: 8c0ed393de18dee4fa3da7ca1c8a85c8, type: 3}
+  RateOfOccurence:
+  - season: 0
+    percentage: 90
+  - season: 1
+    percentage: 50
+  - season: 2
+    percentage: 30
+  - season: 3
+    percentage: 50

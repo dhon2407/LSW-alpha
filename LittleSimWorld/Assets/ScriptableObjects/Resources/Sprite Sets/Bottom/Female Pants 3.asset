@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab8d9aa129a19f459f8188a9a5d4b10, type: 3}
+  m_Name: Female Pants 3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Part: 6
+  Bot: {fileID: 5388623656368484778, guid: 253a28d8090ba834383601a5c73d149c, type: 3}
+  Top: {fileID: -7018075312513742668, guid: 253a28d8090ba834383601a5c73d149c, type: 3}
+  Right: {fileID: 1082445444316355987, guid: 253a28d8090ba834383601a5c73d149c, type: 3}
+  Left: {fileID: -2539548424022035405, guid: 253a28d8090ba834383601a5c73d149c, type: 3}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab8d9aa129a19f459f8188a9a5d4b10, type: 3}
+  m_Name: Female Hair Set 1 Color 1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Part: 0
+  Bot: {fileID: -2114437738713760606, guid: aa45627c63a994342817c910590349e6, type: 3}
+  Top: {fileID: -1515090067043680422, guid: aa45627c63a994342817c910590349e6, type: 3}
+  Right: {fileID: -6268610204873926629, guid: aa45627c63a994342817c910590349e6, type: 3}
+  Left: {fileID: 8323040291772010311, guid: aa45627c63a994342817c910590349e6, type: 3}

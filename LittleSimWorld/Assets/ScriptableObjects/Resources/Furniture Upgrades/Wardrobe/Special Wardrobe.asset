@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2cb87fb585cc44381db81b9a372627, type: 3}
+  m_Name: Special Wardrobe
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _Name: Special Wardrobe
+  _Description: 
+  _BasePrice: 2500
+  _Icon: {fileID: -3049332246008741795, guid: aae9e88c7ffec7c4a883a41c5ca66e9c, type: 3}
+  Type: 10
+  LinkedPrefab: {fileID: 4854648400695735552, guid: 1fa66ad5a6a23284ca07bf6990f99c6f,
+    type: 3}

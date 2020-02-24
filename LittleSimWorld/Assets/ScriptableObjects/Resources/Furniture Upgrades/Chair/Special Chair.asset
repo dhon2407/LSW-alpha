@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2cb87fb585cc44381db81b9a372627, type: 3}
+  m_Name: Special Chair
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _Name: Special Chair
+  _Description: 
+  _BasePrice: 2500
+  _Icon: {fileID: 608196724795438829, guid: 66d139647d1c9f0448fcfb0f3d554773, type: 3}
+  Type: 1
+  LinkedPrefab: {fileID: 5725379612352809939, guid: 5e26af22ca8baf14094547d6296c67bf,
+    type: 3}

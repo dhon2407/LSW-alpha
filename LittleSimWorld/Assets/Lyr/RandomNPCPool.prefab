@@ -1,0 +1,2107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8447284501564019471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8447284501564019469}
+  - component: {fileID: 8447284501564019468}
+  m_Layer: 0
+  m_Name: RandomNPCPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8447284501564019469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8447284501564019471}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8447284501564019468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8447284501564019471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f4c3c23e01bae443b490f41684082d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: npcLocationHelper
+      Entry: 7
+      Data: 0|Characters.RandomNPC.RandomNPCLocationHelper, Assembly-CSharp
+    - Name: SpawnLocations
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 36
+    - Name: 
+      Entry: 7
+      Data: 2|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 15.48
+    - Name: 
+      Entry: 4
+      Data: -5.68
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 15.48
+    - Name: 
+      Entry: 4
+      Data: 3.64
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 15.48
+    - Name: 
+      Entry: 4
+      Data: 13.87
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 15.48
+    - Name: 
+      Entry: 4
+      Data: -13.83
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 15.48
+    - Name: 
+      Entry: 4
+      Data: -21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 15.48
+    - Name: 
+      Entry: 4
+      Data: -26.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 15.48
+    - Name: 
+      Entry: 4
+      Data: -34.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.1
+    - Name: 
+      Entry: 4
+      Data: -34.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.9
+    - Name: 
+      Entry: 4
+      Data: -34.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -4.01
+    - Name: 
+      Entry: 4
+      Data: -34.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -8.49
+    - Name: 
+      Entry: 4
+      Data: -34.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -19.03
+    - Name: 
+      Entry: 4
+      Data: -34.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -28.03
+    - Name: 
+      Entry: 4
+      Data: -34.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -42.8
+    - Name: 
+      Entry: 4
+      Data: -34.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -51.3
+    - Name: 
+      Entry: 4
+      Data: -34.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -51.3
+    - Name: 
+      Entry: 4
+      Data: -29.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -51.3
+    - Name: 
+      Entry: 4
+      Data: -23.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -51.3
+    - Name: 
+      Entry: 4
+      Data: -16.7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -51.3
+    - Name: 
+      Entry: 4
+      Data: -10.7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -51.3
+    - Name: 
+      Entry: 4
+      Data: -5.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 22|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -43.36
+    - Name: 
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -43.36
+    - Name: 
+      Entry: 4
+      Data: 15.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -43.36
+    - Name: 
+      Entry: 4
+      Data: 21.57
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -43.36
+    - Name: 
+      Entry: 4
+      Data: 31.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -36
+    - Name: 
+      Entry: 4
+      Data: 32.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -30.5
+    - Name: 
+      Entry: 4
+      Data: 32.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 28|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -24.9
+    - Name: 
+      Entry: 4
+      Data: 32.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 29|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -18
+    - Name: 
+      Entry: 4
+      Data: 32.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 30|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -11.9
+    - Name: 
+      Entry: 4
+      Data: 32.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -7.1
+    - Name: 
+      Entry: 4
+      Data: 29
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -7.1
+    - Name: 
+      Entry: 4
+      Data: 24.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -7.1
+    - Name: 
+      Entry: 4
+      Data: 19.67
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -6.7
+    - Name: 
+      Entry: 4
+      Data: 15.89
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.3
+    - Name: 
+      Entry: 4
+      Data: 14.78
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 36|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 5.78
+    - Name: 
+      Entry: 4
+      Data: 14.7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 5.78
+    - Name: 
+      Entry: 4
+      Data: 14.7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GoToLocations
+      Entry: 7
+      Data: 38|System.Collections.Generic.List`1[[Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 60
+    - Name: 
+      Entry: 7
+      Data: 39|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -5.34
+    - Name: 
+      Entry: 4
+      Data: -14.59
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 40|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -22.5
+    - Name: 
+      Entry: 4
+      Data: -13.62
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 41|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -19.8
+    - Name: 
+      Entry: 4
+      Data: -12.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 42|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -21.4
+    - Name: 
+      Entry: 4
+      Data: -17.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -24.9
+    - Name: 
+      Entry: 4
+      Data: -15.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -24.9
+    - Name: 
+      Entry: 4
+      Data: -11.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 45|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -24.9
+    - Name: 
+      Entry: 4
+      Data: -8.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -24.9
+    - Name: 
+      Entry: 4
+      Data: -19.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 47|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -17.74
+    - Name: 
+      Entry: 4
+      Data: -19.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 48|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -19
+    - Name: 
+      Entry: 4
+      Data: -15.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3
+    - Name: 
+      Entry: 4
+      Data: -15.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3
+    - Name: 
+      Entry: 4
+      Data: -13.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 51|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -6.8
+    - Name: 
+      Entry: 4
+      Data: -10.66
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 52|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -6.42
+    - Name: 
+      Entry: 4
+      Data: -16.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 53|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Location
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -39.99
+    - Name: 
+      Entry: 4
+      Data: -15.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 54|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -39.99
+    - Name: 
+      Entry: 4
+      Data: -11.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 55|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -46.6
+    - Name: 
+      Entry: 4
+      Data: -11.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 56|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -43.8
+    - Name: 
+      Entry: 4
+      Data: -11.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 57|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -43.8
+    - Name: 
+      Entry: 4
+      Data: -22.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 58|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -46
+    - Name: 
+      Entry: 4
+      Data: -22.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 59|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -41.9
+    - Name: 
+      Entry: 4
+      Data: -19.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 60|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -31.6
+    - Name: 
+      Entry: 4
+      Data: -20.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 61|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -31.6
+    - Name: 
+      Entry: 4
+      Data: -23.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 62|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -35.5
+    - Name: 
+      Entry: 4
+      Data: -22.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 63|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -46.6
+    - Name: 
+      Entry: 4
+      Data: -27.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 64|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -46.6
+    - Name: 
+      Entry: 4
+      Data: -31.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 65|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -43.6
+    - Name: 
+      Entry: 4
+      Data: -31.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 66|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -33.1
+    - Name: 
+      Entry: 4
+      Data: -16.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 67|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -37.2
+    - Name: 
+      Entry: 4
+      Data: -15.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 68|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Hospital
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -44.8
+    - Name: 
+      Entry: 4
+      Data: -12.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 69|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -27.7
+    - Name: 
+      Entry: 4
+      Data: 6.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 70|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -15.6
+    - Name: 
+      Entry: 4
+      Data: 6.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 71|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -15.6
+    - Name: 
+      Entry: 4
+      Data: 2.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 72|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -28.08
+    - Name: 
+      Entry: 4
+      Data: 2.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 73|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -32.7
+    - Name: 
+      Entry: 4
+      Data: 2.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 74|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -10.6
+    - Name: 
+      Entry: 4
+      Data: 2.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 75|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -10.6
+    - Name: 
+      Entry: 4
+      Data: -1.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 76|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -32.32
+    - Name: 
+      Entry: 4
+      Data: -1.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 77|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -32.32
+    - Name: 
+      Entry: 4
+      Data: 12.09
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 78|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -10.95
+    - Name: 
+      Entry: 4
+      Data: 12.09
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 79|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -23.7
+    - Name: 
+      Entry: 4
+      Data: 7.07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 80|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -19
+    - Name: 
+      Entry: 4
+      Data: 7.07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 81|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -21.2
+    - Name: 
+      Entry: 4
+      Data: 2.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 82|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -23.6
+    - Name: 
+      Entry: 4
+      Data: -4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 83|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Yard
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -19.59
+    - Name: 
+      Entry: 4
+      Data: -4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 84|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Park
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 5.74
+    - Name: 
+      Entry: 4
+      Data: -14.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 85|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Park
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 9.6
+    - Name: 
+      Entry: 4
+      Data: -12.98
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 86|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Park
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 9.6
+    - Name: 
+      Entry: 4
+      Data: -18.07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 87|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Park
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: -18.07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 88|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Park
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 10.6
+    - Name: 
+      Entry: 4
+      Data: -20.48
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 89|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Park
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 13.3
+    - Name: 
+      Entry: 4
+      Data: -18.36
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 90|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Park
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 13.3
+    - Name: 
+      Entry: 4
+      Data: -11.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 91|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Park
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 7.49
+    - Name: 
+      Entry: 4
+      Data: -10.45
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 92|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Park
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 11.74
+    - Name: 
+      Entry: 4
+      Data: -15.63
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 93|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Park
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 11.74
+    - Name: 
+      Entry: 4
+      Data: -8.67
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 94|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Class
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -32.6
+    - Name: 
+      Entry: 4
+      Data: 19.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 95|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Class
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -33.2
+    - Name: 
+      Entry: 4
+      Data: 28.7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 96|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Class
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -32.6
+    - Name: 
+      Entry: 4
+      Data: 27
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 97|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Class
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -37.9
+    - Name: 
+      Entry: 4
+      Data: 27
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 98|Characters.RandomNPC.RandomNPCLocationHelper+NPCLocation, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Class
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -35.8
+    - Name: 
+      Entry: 4
+      Data: 28.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  PoolAmount: 100
+  MaxActive: 100
+  npcPrefab: {fileID: 3286442009916537547, guid: c23a3d4f41d2c0645aa44139c218469f,
+    type: 3}
+  Interval: 2
