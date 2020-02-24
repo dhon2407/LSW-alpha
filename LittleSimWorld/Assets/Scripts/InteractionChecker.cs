@@ -9,6 +9,7 @@ public class InteractionChecker : MonoBehaviour {
 	public KeyCode KeyToInteract;
 	public static InteractionChecker Instance;
 	public AnimationCurve jumpCurve;
+    private bool interactCD;
 
 	[System.NonSerialized] public GameObject lastHighlightedObject_Closest;
 	[System.NonSerialized] public GameObject lastHighlightedObject_Mouse;
@@ -31,10 +32,11 @@ public class InteractionChecker : MonoBehaviour {
 	}
 
 	void Update() {
-		if (Input.GetKeyUp(KeyToInteract)) {
+        if (Input.GetKeyUp(KeyToInteract)) {
 			if (GameLibOfMethods.isSleeping || !GameLibOfMethods.canInteract || GameLibOfMethods.doingSomething) { return; }
 			GameObject interactableObject = CheckClosestInteractable();
 			if (interactableObject) { InteractWith(interactableObject); }
+
 		}
 
 		ApplyHighlights();
@@ -76,7 +78,6 @@ public class InteractionChecker : MonoBehaviour {
 	public void InteractWith(GameObject interactableObject) {
 
 		GameTime.Clock.ResetSpeed();
-
 		if (GameTime.Clock.Paused) return;
 		
 		Debug.Log("Interacting");
@@ -92,11 +93,13 @@ public class InteractionChecker : MonoBehaviour {
             }
             else
             {
-                var interactable = interactableObject.GetComponent<IInteractable>();
-                System.Action action = interactable.interactionOptions.UpdateCharacterOrientation;
-                FindObjectOfType<PathFinding.PlayerPathfinding>().MoveTo(interactable.interactionOptions.PlayerStandPosition, 2, action);
+                PlayerAnimationHelper.ResetAnimations();
 
-                StartCoroutine(DelayInteractionMenu(interactable, interactable.interactionOptions.PlayerStandPosition));
+                var interactable = interactableObject.GetComponent<IInteractable>();
+                System.Action Interact = interactable.Interact;
+                FindObjectOfType<PathFinding.PlayerPathfinding>().MoveTo(interactable.interactionOptions.PlayerStandPosition, 2, Interact);
+                GameLibOfMethods.doingSomething = true;
+                StartCoroutine(DelayInteractionMenu(interactable, interactable.interactionOptions.PlayerStandPosition, Interact));
             }
 
 		}
@@ -106,16 +109,16 @@ public class InteractionChecker : MonoBehaviour {
 
 	}
 
-    IEnumerator<WaitForSeconds> DelayInteractionMenu(IInteractable interactable, Vector2 targetPos)
+    IEnumerator<WaitForSeconds> DelayInteractionMenu(IInteractable interactable, Vector2 targetPos, System.Action interact)
     { 
         while (Vector2.Distance(Player.position, targetPos) >= .5f)
         {
             yield return new WaitForSeconds(.1f);
         }
+        interactable.interactionOptions.UpdateCharacterOrientation();
         interactable.Interact();
     }
-
-    GameObject CheckClosestInteractable() {
+        GameObject CheckClosestInteractable() {
 
 		int layerMask = 1 << 10 | 1 << 15 | 1 << 16;
 

@@ -35,6 +35,7 @@ public static class PlayerAnimationHelper {
 		_anim.SetBool("Learning", false);
 		_anim.SetBool("Drinking", false);
 		_anim.SetBool("Fixing", false);
+		_anim.SetBool("Cardio", false);
 		_anim.ResetTrigger("PassOutToSleep");
         _anim.SetBool("HidePlayer", false);
     }

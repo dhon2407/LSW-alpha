@@ -10,15 +10,16 @@ namespace Objects {
 
 		public override void Interact() {
 			var result = TrySetCurrentAction("Cardio");
-
 			if (result) { PlayerCommands.JumpTo(this); }
 			else { result.PrintErrorMessage(); }
 		}
 
 		public override void BeginUsing() {
 			GameLibOfMethods.cantMove = true;
+            GameLibOfMethods.canInteract = false;
+            GameLibOfMethods.doingSomething = true;
 
-			CurrentAction.BeginAction();
+            CurrentAction.BeginAction();
 			useState = ObjectUseState.InUse;
 		}
 		public override void Use() {
@@ -35,10 +36,24 @@ namespace Objects {
 		}
 
 		public override void FinishUsing(bool cancel) {
-			ResetObjectState(cancel);
-			PlayerCommands.JumpOff(0, action);
-			void action() => SpriteControler.Instance.ChangeSortingOrder(0);
-		}
+            CurrentAction.EndAction();
+            ResetObjectState(cancel);
+            void ResetAction()
+            {
+                SpriteControler.Instance.ChangeSortingOrder(0);
+                GetComponent<SpriteRenderer>().sortingOrder = 0;
+            }
+            PlayerAnimationHelper.ResetAnimations();
+            PlayerCommands.WalkBackToLastPosition(ResetAction);
+            PlayerCommands.JumpOff(0, action);
+            void action() => SpriteControler.Instance.ChangeSortingOrder(0);
+        }
 
-	}
+        //IEnumerator FinishUsingDelay(bool cancel)
+        //{
+        //    yield return new WaitForSeconds(2);
+            
+        //}
+
+    }
 }
